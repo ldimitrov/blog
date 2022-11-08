@@ -2,3 +2,14 @@ site_name: My Personal Blog
 
 theme:
   name: material
+  logo: add logo
+  favicon: add favicon
+  palette: 
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
