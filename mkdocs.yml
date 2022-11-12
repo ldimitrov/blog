@@ -4,7 +4,7 @@ theme:
   name: material
   logo: add logo
   favicon: add favicon
-  palette: 
+  palette:
     - scheme: slate
       toggle:
         icon: material/weather-night
@@ -15,15 +15,10 @@ theme:
         name: Switch to light mode
 
 nav: 
-  - Blog:
-    - blog/index.md
+  - index.md
 
 plugins:
   - search
-  - blog:
-    post_readtime: true
-    post_date_format: long
-
 
 copyright: Copyright &copy; 2022 Lyuben Dimitrov
 
