@@ -13,3 +13,19 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+
+nav: 
+  - Blog:
+    - blog/index.md
+
+plugins:
+  - search
+  - blog:
+    post_readtime: true
+    post_date_format: long
+
+
+copyright: Copyright &copy; 2022 Lyuben Dimitrov
+
+extra:
+  generator: false
